@@ -14,11 +14,11 @@ if (age<18){
     discount = ((20 * ticketCost) / 100);
 } else if (age>65){
     discount = ((40 * ticketCost) / 100);
-} else (age>=18 && age<=65);{
-    discount = 0;
-};
+} else ((age>=18) && (age<=65));{
+    
+}
 
 
 const ticketCostFinal = ticketCost - discount;
-
-document.getElementById('cost').innerHTML+=ticketCostFinal + '€';
+const decimal = ticketCostFinal.toFixed(2)
+document.getElementById('cost').innerHTML+=decimal + '€';
