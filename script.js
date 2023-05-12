@@ -11,11 +11,11 @@ let discount;
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
 if (age<18){
-    discount = ((20 * ticketCost) / 100);
+    discount = ((20 * ticketCost) / 100)
 } else if (age>65){
-    discount = ((40 * ticketCost) / 100);
-} else ((age>=18) && (age<=65));{
-    
+    discount = ((40 * ticketCost) / 100)
+} else ((age>=18) && (age<=65)){
+
 }
 
 
